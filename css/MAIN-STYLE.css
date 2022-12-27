@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@300;400&family=Qwitcher+Grypen:wght@400;700&display=swap');
+*{scroll-behavior: smooth}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	
+	color: #828282;
+	line-height: 1.7rem /* chieu cao tung dong trong 1 pagraph*/
+}
+h1,h2,h3,h4
+{
+	font-family: 'Lora', serif;
+	color: black
+}
+.font-viettay
+{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 2rem
+}
+.font-chuky{
+	 font-family:  fontkyten;
+}
+section
+{
+	border-top: 3px dotted #666;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.form-control { width: 100%; padding:10px 15px; border: 1px solid #ddd}
+
+.btn-dark{ 
+	background: black; 
+	color: #fff;
+	cursor: pointer; 
+	padding: 8px 10px ;
+	border: 1px solid #000
+}
+.btn-dark:hover{
+	background: white;
+	color: black
+}
+footer
+{
+	background: #000;
+	color: #fff;
+	padding: 60px 0
+}
+.menu-footer a
+{
+	display: block;
+	color: #fff;
+	text-decoration: none
+}
+.menu-footer a:hover{
+	color: #ddd
+}
+#tieude-trang
+{
+	position: relative
+}
+.ten-trang
+{
+	position: absolute;
+	width: 50%; 
+	top: 40%;
+	left: 25%;
+	text-align: center;
+	color: #fff
+}
+.ten-trang h1 { font-size: 2rem}
+
+.social-icon a
+{ 
+	color: aqua; 
+	margin: 5px
+}
+.social-icon a:hover
+{
+	color:chocolate
+}
+.box-hidden 
+{
+	border: 1px solid blue;
+	text-align: center
+}
+.box-hidden a
+{
+	background-color: #fff; 
+	width: 40px; 
+	height: 40px; line-height: 40px; 
+	display: inline-block;
+	color: #000; margin: 0 5px
+}
+.box-hidden a:hover { background-color: azure}
+.price{ color:slategrey}
+
+.box-spham{ position: relative;
+padding: 30px;}
+.box-hidden{ 
+	position: absolute;
+	width: 100%; 
+	left: 0; top: 80%; 
+	opacity: 0; visibility: hidden; 
+	transition: all 1s
+}
+.box-spham:hover >.box-hidden
+{ opacity: 1; visibility: visible; top:60%}
+
+.avatar, #tes .owl-item img {
+	margin: auto;
+	width: 100px; height: 100px; border-radius: 50%; border: 2px solid tomato
+}
+
+#banner1 .owl-dots{ position:absolute; bottom: 10px; left:45%; 
+   color:#9C0}
+#banner1  .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#banner1  .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#banner1  .owl-nav [class*='owl-'] {
+	font-size:120px; 
+}
+
+#banner1  .owl-nav .owl-next{ position:absolute; right:10px;}
+#banner1  .owl-nav .owl-prev{ position:absolute; left:10px}
+ #banner1  .owl-nav [class*='owl-']:hover {
+     background-color: transparent;
+		
+      color:#F90;
+      text-decoration: none; }
